@@ -15,3 +15,14 @@ for (const key in object) {
         
     }
 }
+
+const object = {
+    name: "John",
+    age: 30,
+    city: "New York"
+}
+const object2 = {
+    name: "John",
+    age: 30,
+    city: "New York"
+}
