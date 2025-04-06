@@ -8,3 +8,10 @@ let a = 1;
 let b = 2;
 let c = a + b;
 console.log(c);
+
+for (const key in object) {
+    if (Object.prototype.hasOwnProperty.call(object, key)) {
+        const element = object[key];
+        
+    }
+}
